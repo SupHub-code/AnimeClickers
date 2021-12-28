@@ -1,4 +1,3 @@
-while true do
+local player = game.Players.LocalPlayer
 
-
-end
+player:Kick('Unexcepted behaviour')
