@@ -86,6 +86,7 @@ UICorner_3.Parent = Single
 TextButton_2.Parent = Single
 TextButton_2.AnchorPoint = Vector2.new(0.5, 0.5)
 TextButton_2.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+TextButton_2.BackgroundTransparency = 1.000
 TextButton_2.Position = UDim2.new(0.5, 0, 0.5, 0)
 TextButton_2.Size = UDim2.new(0, 46, 0, 46)
 TextButton_2.Font = Enum.Font.SourceSans
@@ -106,6 +107,7 @@ UICorner_5.Parent = Triple
 TextButton_3.Parent = Triple
 TextButton_3.AnchorPoint = Vector2.new(0.5, 0.5)
 TextButton_3.BackgroundColor3 = Color3.fromRGB(108, 108, 108)
+TextButton_3.BackgroundTransparency = 1.000
 TextButton_3.Position = UDim2.new(0.5, 0, 0.5, 0)
 TextButton_3.Size = UDim2.new(0, 46, 0, 46)
 TextButton_3.Font = Enum.Font.SourceSans
@@ -143,7 +145,7 @@ TextLabel_3.TextWrapped = true
 
 -- Scripts:
 
-local function OBYSRAT_fake_script() -- TextButton.LocalScript 
+local function LBLPGJW_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local A_2 = true
@@ -210,8 +212,8 @@ local function OBYSRAT_fake_script() -- TextButton.LocalScript
 	
 	spawn(checkPaste)
 end
-coroutine.wrap(OBYSRAT_fake_script)()
-local function WKUBN_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(LBLPGJW_fake_script)()
+local function MQRIAL_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local enabled = false
@@ -233,8 +235,8 @@ local function WKUBN_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(WKUBN_fake_script)()
-local function MYSBK_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(MQRIAL_fake_script)()
+local function BMSZEP_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local enabled = false
@@ -256,8 +258,8 @@ local function MYSBK_fake_script() -- TextButton_3.LocalScript
 	
 	end)
 end
-coroutine.wrap(MYSBK_fake_script)()
-local function KVBA_fake_script() -- ScreenGui.LocalScript2 
+coroutine.wrap(BMSZEP_fake_script)()
+local function HEMH_fake_script() -- ScreenGui.LocalScript2 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	script.Parent.Frame.Active = true
@@ -277,4 +279,4 @@ local function KVBA_fake_script() -- ScreenGui.LocalScript2
 		
 	end)
 end
-coroutine.wrap(KVBA_fake_script)()
+coroutine.wrap(HEMH_fake_script)()
