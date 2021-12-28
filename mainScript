@@ -24,6 +24,7 @@ local TextLabel_3 = Instance.new("TextLabel")
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Enabled = false
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
 
@@ -145,7 +146,7 @@ TextLabel_3.TextWrapped = true
 
 -- Scripts:
 
-local function LBLPGJW_fake_script() -- TextButton.LocalScript 
+local function LEIF_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local A_2 = true
@@ -158,17 +159,16 @@ local function LBLPGJW_fake_script() -- TextButton.LocalScript
 		
 		loopVal = not loopVal
 		
-		local A_1 = tostring(script.Parent.Parent.TextBox.Text)
-		
 		
 		if loopVal then
 			
 			script.Parent.Text = 'LOOP: ON'
-			
-			
+				
 		end
 		
 		repeat wait()
+			
+			local A_1 = tostring(script.Parent.Parent.TextBox.Text)
 			
 			local openSingle = script.Parent.Parent.Single.TextButton.BackgroundTransparency
 			local openTriple = script.Parent.Parent.Triple.TextButton.BackgroundTransparency
@@ -177,7 +177,7 @@ local function LBLPGJW_fake_script() -- TextButton.LocalScript
 	
 				A_2 = false
 	
-			else
+			elseif openTriple == 0 then
 	
 				A_2 = true
 	
@@ -212,8 +212,8 @@ local function LBLPGJW_fake_script() -- TextButton.LocalScript
 	
 	spawn(checkPaste)
 end
-coroutine.wrap(LBLPGJW_fake_script)()
-local function MQRIAL_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(LEIF_fake_script)()
+local function BXIQH_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local enabled = false
@@ -235,8 +235,8 @@ local function MQRIAL_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(MQRIAL_fake_script)()
-local function BMSZEP_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(BXIQH_fake_script)()
+local function IFWJ_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local enabled = false
@@ -258,8 +258,8 @@ local function BMSZEP_fake_script() -- TextButton_3.LocalScript
 	
 	end)
 end
-coroutine.wrap(BMSZEP_fake_script)()
-local function HEMH_fake_script() -- ScreenGui.LocalScript2 
+coroutine.wrap(IFWJ_fake_script)()
+local function JWYTC_fake_script() -- ScreenGui.LocalScript2 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	script.Parent.Frame.Active = true
@@ -279,4 +279,4 @@ local function HEMH_fake_script() -- ScreenGui.LocalScript2
 		
 	end)
 end
-coroutine.wrap(HEMH_fake_script)()
+coroutine.wrap(JWYTC_fake_script)()
