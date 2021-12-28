@@ -1,5 +1,5 @@
--- Gui to Lua
--- Version: 3.2
+-- Anime Clickers Script
+-- Version: 1
 
 -- Instances:
 
@@ -145,7 +145,7 @@ TextLabel_3.TextWrapped = true
 
 -- Scripts:
 
-local function ODCOH_fake_script() -- TextButton.LocalScript 
+local function LCLTJLL_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local A_2 = true
@@ -181,7 +181,15 @@ local function ODCOH_fake_script() -- TextButton.LocalScript
 		
 		repeat wait()
 			
-			local A_1 = tostring(script.Parent.Parent.TextBox.Text)
+			for i,v in pairs(game:GetService("Workspace").Eggs:GetChildren()) do
+	
+				if script.Parent.Parent.TextBox.Text:lower():sub(1, #v) == v:lower() then
+	
+					local A_1 = tostring(script.Parent.Parent.TextBox.Text)
+	
+				end
+	
+			end
 			
 			local openSingle = script.Parent.Parent.Single.TextButton.BackgroundTransparency
 			local openTriple = script.Parent.Parent.Triple.TextButton.BackgroundTransparency
@@ -215,8 +223,8 @@ local function ODCOH_fake_script() -- TextButton.LocalScript
 	
 	spawn(checkPaste)
 end
-coroutine.wrap(ODCOH_fake_script)()
-local function VDGSD_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(LCLTJLL_fake_script)()
+local function WIFY_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local enabled = false
@@ -238,8 +246,8 @@ local function VDGSD_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(VDGSD_fake_script)()
-local function XOQC_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(WIFY_fake_script)()
+local function YSCDNHW_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local enabled = false
@@ -261,8 +269,8 @@ local function XOQC_fake_script() -- TextButton_3.LocalScript
 	
 	end)
 end
-coroutine.wrap(XOQC_fake_script)()
-local function CSDNWY_fake_script() -- ScreenGui.LocalScript2 
+coroutine.wrap(YSCDNHW_fake_script)()
+local function ZRGUAKE_fake_script() -- ScreenGui.LocalScript2 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	script.Parent.Frame.Active = true
@@ -282,4 +290,4 @@ local function CSDNWY_fake_script() -- ScreenGui.LocalScript2
 		
 	end)
 end
-coroutine.wrap(CSDNWY_fake_script)()
+coroutine.wrap(ZRGUAKE_fake_script)()
