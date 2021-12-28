@@ -1,5 +1,5 @@
 -- Anime Clickers Script
--- Version: 1.1
+-- Version: 0.2
 
 -- Instances:
 
@@ -145,7 +145,7 @@ TextLabel_3.TextWrapped = true
 
 -- Scripts:
 
-local function DZYBFC_fake_script() -- TextButton.LocalScript 
+local function FZHG_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local A_1 = ''
@@ -177,6 +177,10 @@ local function DZYBFC_fake_script() -- TextButton.LocalScript
 		if loopVal then
 			
 			script.Parent.Text = 'LOOP: ON'
+			
+		else
+			
+			script.Parent.Text = 'LOOP: OFF'
 				
 		end
 		
@@ -184,7 +188,7 @@ local function DZYBFC_fake_script() -- TextButton.LocalScript
 			
 			for i,v in pairs(game:GetService("Workspace").Eggs:GetChildren()) do
 	
-				if script.Parent.Parent.TextBox.Text:lower():sub(1, #v) == v:lower() then
+				if script.Parent.Parent.TextBox.Text:lower():sub(1, #v.Name) == v.Name:lower() then
 	
 					A_1 = tostring(script.Parent.Parent.TextBox.Text)
 	
@@ -224,8 +228,8 @@ local function DZYBFC_fake_script() -- TextButton.LocalScript
 	
 	spawn(checkPaste)
 end
-coroutine.wrap(DZYBFC_fake_script)()
-local function JSSRQM_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(FZHG_fake_script)()
+local function QYBNYUS_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local enabled = false
@@ -247,8 +251,8 @@ local function JSSRQM_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(JSSRQM_fake_script)()
-local function DCGU_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(QYBNYUS_fake_script)()
+local function RJKKCR_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local enabled = false
@@ -270,8 +274,8 @@ local function DCGU_fake_script() -- TextButton_3.LocalScript
 	
 	end)
 end
-coroutine.wrap(DCGU_fake_script)()
-local function HVMRTP_fake_script() -- ScreenGui.LocalScript2 
+coroutine.wrap(RJKKCR_fake_script)()
+local function BOEGVYA_fake_script() -- ScreenGui.LocalScript2 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	script.Parent.Frame.Active = true
@@ -291,4 +295,4 @@ local function HVMRTP_fake_script() -- ScreenGui.LocalScript2
 		
 	end)
 end
-coroutine.wrap(HVMRTP_fake_script)()
+coroutine.wrap(BOEGVYA_fake_script)()
