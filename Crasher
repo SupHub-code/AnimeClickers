@@ -1,0 +1,9 @@
+local player = game.Players.LocalPlayer
+
+if not player.Name == 'tomer991' then
+
+	while true do
+
+	end
+
+end
