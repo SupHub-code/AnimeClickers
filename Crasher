@@ -1,3 +1,7 @@
 local player = game.Players.LocalPlayer
 
-player.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+if not player.Name == 'tomer991' then
+
+  player.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+
+end
