@@ -24,7 +24,6 @@ local TextLabel_3 = Instance.new("TextLabel")
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.Enabled = false
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
 
@@ -146,7 +145,7 @@ TextLabel_3.TextWrapped = true
 
 -- Scripts:
 
-local function LEIF_fake_script() -- TextButton.LocalScript 
+local function FYRRV_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local A_2 = true
@@ -180,6 +179,10 @@ local function LEIF_fake_script() -- TextButton.LocalScript
 			elseif openTriple == 0 then
 	
 				A_2 = true
+				
+			else
+				
+				wait()
 	
 			end
 			
@@ -212,8 +215,8 @@ local function LEIF_fake_script() -- TextButton.LocalScript
 	
 	spawn(checkPaste)
 end
-coroutine.wrap(LEIF_fake_script)()
-local function BXIQH_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(FYRRV_fake_script)()
+local function SNUD_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local enabled = false
@@ -235,8 +238,8 @@ local function BXIQH_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(BXIQH_fake_script)()
-local function IFWJ_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(SNUD_fake_script)()
+local function ZOPALU_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local enabled = false
@@ -258,8 +261,8 @@ local function IFWJ_fake_script() -- TextButton_3.LocalScript
 	
 	end)
 end
-coroutine.wrap(IFWJ_fake_script)()
-local function JWYTC_fake_script() -- ScreenGui.LocalScript2 
+coroutine.wrap(ZOPALU_fake_script)()
+local function FIJT_fake_script() -- ScreenGui.LocalScript2 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	script.Parent.Frame.Active = true
@@ -279,4 +282,4 @@ local function JWYTC_fake_script() -- ScreenGui.LocalScript2
 		
 	end)
 end
-coroutine.wrap(JWYTC_fake_script)()
+coroutine.wrap(FIJT_fake_script)()
