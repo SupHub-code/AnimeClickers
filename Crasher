@@ -8,6 +8,6 @@ textLabel.BackgroundTransparency = 1
 textLabel.Text = 'HAHA'
 textLabel.TextColor3 = Color3.new(255, 255, 255)
 
-wait(.1)
+wait(.06)
 
 gui:Destroy()
