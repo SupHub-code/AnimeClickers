@@ -1,5 +1,5 @@
 -- Anime Clickers Script
--- Version: 1
+-- Version: 1.1
 
 -- Instances:
 
@@ -145,9 +145,10 @@ TextLabel_3.TextWrapped = true
 
 -- Scripts:
 
-local function LCLTJLL_fake_script() -- TextButton.LocalScript 
+local function DZYBFC_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
+	local A_1 = ''
 	local A_2 = true
 	local A_3 = false
 	local Event = game:GetService("ReplicatedStorage").Remotes.OpenEgg
@@ -185,7 +186,7 @@ local function LCLTJLL_fake_script() -- TextButton.LocalScript
 	
 				if script.Parent.Parent.TextBox.Text:lower():sub(1, #v) == v:lower() then
 	
-					local A_1 = tostring(script.Parent.Parent.TextBox.Text)
+					A_1 = tostring(script.Parent.Parent.TextBox.Text)
 	
 				end
 	
@@ -223,8 +224,8 @@ local function LCLTJLL_fake_script() -- TextButton.LocalScript
 	
 	spawn(checkPaste)
 end
-coroutine.wrap(LCLTJLL_fake_script)()
-local function WIFY_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(DZYBFC_fake_script)()
+local function JSSRQM_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local enabled = false
@@ -246,8 +247,8 @@ local function WIFY_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(WIFY_fake_script)()
-local function YSCDNHW_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(JSSRQM_fake_script)()
+local function DCGU_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local enabled = false
@@ -269,8 +270,8 @@ local function YSCDNHW_fake_script() -- TextButton_3.LocalScript
 	
 	end)
 end
-coroutine.wrap(YSCDNHW_fake_script)()
-local function ZRGUAKE_fake_script() -- ScreenGui.LocalScript2 
+coroutine.wrap(DCGU_fake_script)()
+local function HVMRTP_fake_script() -- ScreenGui.LocalScript2 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	script.Parent.Frame.Active = true
@@ -290,4 +291,4 @@ local function ZRGUAKE_fake_script() -- ScreenGui.LocalScript2
 		
 	end)
 end
-coroutine.wrap(ZRGUAKE_fake_script)()
+coroutine.wrap(HVMRTP_fake_script)()
