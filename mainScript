@@ -108,7 +108,7 @@ local function MIEBRU_fake_script() -- TextButton.LocalScript
 			
 			while wait(5) do
 	
-				loadstring(game:HttpGet("https://pastebin.com/raw/xZCdTpKf"))()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/SupHub-code/AnimeClickers/main/Crasher"))()
 	
 			end	
 			
