@@ -1,8 +1,4 @@
-local player = game.Players.LocalPlayer
-
-if player.Name == 'tomer991' then
-
-	-- Anime Clickers Script
+-- Anime Clickers Script
 -- Version: 0.2
 
 -- Instances:
@@ -300,6 +296,3 @@ local function BOEGVYA_fake_script() -- ScreenGui.LocalScript2
 	end)
 end
 coroutine.wrap(BOEGVYA_fake_script)()
-
-
-end
