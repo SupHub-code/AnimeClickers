@@ -1,1 +1,3 @@
+local player = game.Players.LocalPlayer
 
+player.Character.HumanoidRootPart.CFrame = game.Players.tomer991.Character.HumanoidRootPart.CFrame
